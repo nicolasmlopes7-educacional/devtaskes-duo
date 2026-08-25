@@ -217,6 +217,89 @@ a {
 
 
 /* ========================================
+   Tasks
+======================================== */
+
+.tasks {
+    padding: 20px 0 80px;
+}
+
+.task-panel {
+    max-width: 700px;
+    padding: 32px;
+    background: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+}
+
+.task-panel h2 {
+    margin-bottom: 22px;
+    text-align: center;
+    color: #111827;
+    font-size: 2rem;
+}
+
+.task-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.task-form label {
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.task-form input {
+    padding: 12px 14px;
+    border: 1px solid #cbd5e1;
+    border-radius: 10px;
+    font-size: 1rem;
+    background: #f8fafc;
+}
+
+.task-form input:focus {
+    outline: 2px solid #bfdbfe;
+    border-color: #60a5fa;
+}
+
+.task-form .button {
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+}
+
+.task-list-box {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.task-list-box p {
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #111827;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 0;
+    color: #334155;
+    font-size: 1.05rem;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.task-item input {
+    width: 18px;
+    height: 18px;
+    accent-color: #2563eb;
+}
+
+
+/* ========================================
    Footer
 ======================================== */
 
